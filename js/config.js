@@ -52,7 +52,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/";
 
 /*(Image-background only)
 Place one or more images
@@ -99,7 +99,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/DonOmar.mp3", name: "DonOmar"},
+	{ogg: "", name: ""},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
@@ -114,8 +117,8 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Amusez vous bien",
-"Bienvenue merci de rejoindre notre serveur!",
+"Amusez Vous Bien",
+"Bienvenue Merci De Rejoindre Notre Serveur!",
 "Workshop = http://steamcommunity.com/sharedfiles/filedetails/?id=451272403"
 ];
 
